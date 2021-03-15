@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Failure</title>
+            <style>
+              .div{
+                padding: 50px 100px;
+                background-color: #E5E4E2;
+                font-family: sans-serif;
+              }
+              .par{
+                color: #848482;
+                margin: 5px;
+              }
+              h1{
+                font-size: 3rem;
+                margin: 5px;
+              }
+              button{
+                width: 120px;
+                height: 30px;
+                margin: 20px;
+                border:0px;
+                border-radius: 5px;
+                font-size: 18px;
+                color: #E5E4E2;
+                background-color: #eb596e;
+              }
+              button:hover{
+                background-color: #EF7A8B;
+              }
+            </style>
+  </head>
+  <body>
+    <div class="div">
+      <h1>Uh oh!!</h1>
+      <p class="par">An error occure, try again or contact the developer</p>
+      <form action="/failure" method="post">
+        <button type="submit" name="button">Try Again</button>
+      </form>
+    </div>
+  </body>
+</html>
